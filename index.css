@@ -1,0 +1,36 @@
+body { 
+	font: Arial, sans-serif;
+	line-height: 1.5;
+	color: #555753; 
+	background: #FFF; 
+	margin: 0; 
+	padding: 0;
+	}
+
+h1 {
+    color: green;
+    position: relative;
+    float: left;
+}
+
+.page-wrapper { 
+	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.extra1 {
+	background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
+	position: relative; 
+	top: 10px; 
+	width: 148px; 
+	height: 110px;
+    text-align:center;
+	}
+
+@media screen and (max-width: 599px) {
+    .navigation li {
+        display: inline;
+    }
+}
